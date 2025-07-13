@@ -1,5 +1,5 @@
-name: denki_dto
-description: A brick to create your DTOs class including fixtures for testing.
+name: denki_model
+description: A brick to create your Models including fixtures for testing.
 repository: https://github.com/denkilab-works/denki_bricks
 
 version: 0.1.0+1
@@ -15,6 +15,6 @@ vars:
     prompt: What's the name of the parent folder?
   name:
     type: string
-    description: The DTO name
+    description: The Model name
     default: Dash
-    prompt: What's the name of the DTO?
+    prompt: What's the name of the Model?
