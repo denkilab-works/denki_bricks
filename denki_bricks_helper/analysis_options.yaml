@@ -1,0 +1,10 @@
+include: package:lints/recommended.yaml
+
+analyzer:
+  errors:
+    todo: warning
+    missing_return: error
+    avoid_catches_without_on_clauses: ignore
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
