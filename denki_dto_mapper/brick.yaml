@@ -1,0 +1,25 @@
+name: denki_dto_mapper
+description: A brick to create your mappers for DTOs/Models translations.
+repository: https://github.com/denkilab-works/denki_bricks
+
+version: 0.1.0+1
+
+environment:
+  mason: ^0.1.1
+
+vars:
+  parent:
+    type: string
+    description: The parent folder
+    default: feature
+    prompt: What's the name of the parent folder?
+  dto_name:
+    type: string
+    description: The DTO name (used for the mapper name creation)
+    default: Dash
+    prompt: What's the name of the DTO?
+  model_name:
+    type: string
+    description: The Model name
+    default: Dash
+    prompt: What's the name of the Model?
