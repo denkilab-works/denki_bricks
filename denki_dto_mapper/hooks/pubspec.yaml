@@ -11,6 +11,6 @@ dependencies:
       path: denki_bricks_helper
       ref: main
 # Uncomment this during development to quickly apply changes
-dependency_overrides:
-  denki_bricks_helper:
-    path: ../../denki_bricks_helper
+# dependency_overrides:
+#   denki_bricks_helper:
+#     path: ../../denki_bricks_helper
