@@ -1,4 +1,4 @@
-name: denki_service_hooks
+name: denki_retrofit_hooks
 
 environment:
   sdk: ^3.7.0
@@ -11,6 +11,6 @@ dependencies:
       path: denki_bricks_helper
       ref: main
 # Uncomment this during development to quickly apply changes
-# dependency_overrides:
-#   denki_bricks_helper:
-#     path: ../../denki_bricks_helper
+dependency_overrides:
+  denki_bricks_helper:
+    path: ../../denki_bricks_helper
