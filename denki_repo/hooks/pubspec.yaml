@@ -1,4 +1,4 @@
-name: denki_retrofit_hooks
+name: denki_repo_hooks
 
 environment:
   sdk: ^3.7.0
