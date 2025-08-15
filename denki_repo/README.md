@@ -12,7 +12,7 @@ mason make pine_repository --parent "auth" --name "Authentication" --methods "pe
 ## Variables ✨
 
 | Variable  | Description                               | Default | Type     |
-|-----------|-------------------------------------------|---------|----------|
+| --------- | ----------------------------------------- | ------- | -------- |
 | `parent`  | The name of the feature folder            | feature | `string` |
 | `name`    | The name of the repository                | Dash    | `string` |
 | `methods` | The list of the methods (comma separated) | action  | `string` |

@@ -1,0 +1,8 @@
+name: denki_pine
+description: A brick to generate the initial boilerplate for a pine DI and some utilities.
+repository: https://github.com/denkilab-works/denki_bricks
+
+version: 0.1.0+1
+
+environment:
+  mason: ^0.1.1
