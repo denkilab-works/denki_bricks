@@ -1,0 +1,25 @@
+name: denki_page
+description: A brick to generate an auto_route page with some boilerplate and tests.
+repository: https://github.com/denkilab-works/denki_bricks
+
+version: 0.1.0+1
+
+environment:
+  mason: ^0.1.1
+
+vars:
+  name:
+    type: string
+    description: The page name
+    default: Dash
+    prompt: What's the name of the page?
+  state:
+    type: boolean
+    description: Whether the page is stateful or stateless
+    default: false
+    prompt: Is the page stateful?
+  auto_route:
+    type: boolean
+    description: Whether the page should have the AutoRouteWrapper mixin
+    default: false
+    prompt: Does the page have the AutoRouteWrapper mixin?
