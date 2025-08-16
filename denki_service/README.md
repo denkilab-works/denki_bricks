@@ -6,8 +6,8 @@ This brick works with the pine architecture and is strongly inspired by the [pin
 ## Dependencies needed in the codebase
 
 - [pine](https://pub.dev/packages/pine)
-- [data_fixture_dart](https://pub.dev/packages/data_fixture_dart)
-- [freezed](https://pub.dev/packages/freezed)
+- [provider](https://pub.dev/packages/provider)
+- [flutter_test](https://api.flutter.dev/flutter/flutter_test/)
 
 ## How to use 🚀
 
