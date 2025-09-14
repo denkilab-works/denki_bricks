@@ -1,0 +1,35 @@
+name: denki_cubit
+description: A brick to create your DTOs class including fixtures for testing.
+repository: https://github.com/denkilab-works/denki_bricks
+
+version: 0.1.0+1
+
+environment:
+  mason: ^0.1.1
+
+vars:
+  parent:
+    type: string
+    description: The parent folder
+    default: feature
+    prompt: What's the name of the parent folder?
+  name:
+    type: string
+    description: The Cubit name
+    default: Dash
+    prompt: What's the name of the Cubit?
+  methods:
+    type: string
+    description: The Cubit methods
+    default: action
+    prompt: What are the Cubit methods (comma separated)?
+  states:
+    type: string
+    description: The Cubit states
+    default: initial
+    prompt: What are the Cubit states (comma separated)?
+  context:
+    type: boolean
+    description: Generate Cubit extension on context
+    default: true
+    prompt: Do you want to generate Cubit extension on context?
