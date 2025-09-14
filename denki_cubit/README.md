@@ -6,6 +6,7 @@ This brick works with the pine architecture and is strongly inspired by the [pin
 ## Dependencies needed in the codebase
 
 - [flutter_bloc](https://pub.dev/packages/flutter_bloc)
+- [freezed](https://pub.dev/packages/freezed)
 
 ## How to use 🚀
 

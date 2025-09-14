@@ -1,5 +1,5 @@
 name: denki_cubit
-description: A brick to create your DTOs class including fixtures for testing.
+description: A brick to create your cubits (with methods and states) including tests.
 repository: https://github.com/denkilab-works/denki_bricks
 
 version: 0.1.0+1
