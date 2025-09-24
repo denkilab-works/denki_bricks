@@ -8,7 +8,7 @@ dependencies:
   denki_bricks_helper:
     git:
       url: https://github.com/denkilab-works/denki_bricks.git
-      path: denki_pine
+      path: denki_bricks_helper
       ref: main
 # Uncomment this during development to quickly apply changes
 # dependency_overrides:
