@@ -13,21 +13,21 @@ void run(HookContext context) {
     exit(0);
   }
 
-  final givenName = (context.vars['name'] as String).toLowerCase();
-  final name = givenName.endsWith('service')
-      ? givenName.substring(0, givenName.length - 7)
-      : givenName;
+  final givenName = (context.vars['name'] as String).pascalCase;
+  final name =
+      givenName.toLowerCase().endsWith('service')
+          ? givenName.substring(0, givenName.length - 7)
+          : givenName;
   final packageName = pubspec.name;
 
-  final methods = (context.vars['methods'] as String)
-      .split(',')
-      .map((method) => method.trim())
-      .where((method) => method.isNotEmpty)
-      .toSet();
+  final methods =
+      (context.vars['methods'] as String)
+          .split(',')
+          .map((method) => method.trim())
+          .where((method) => method.isNotEmpty)
+          .toSet();
   final rearrangedMethods = methods
-      .map((method) => {
-            'method_name': '${method.camelCase}',
-          })
+      .map((method) => {'method_name': '${method.camelCase}'})
       .toList(growable: false);
 
   context.vars = {
