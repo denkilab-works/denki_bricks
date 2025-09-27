@@ -13,7 +13,7 @@ void run(HookContext context) {
     exit(0);
   }
 
-  final givenName = (context.vars['name'] as String).pascalCase;
+  final givenName = (context.vars['name'] as String).trim().pascalCase;
   final name =
       givenName.toLowerCase().endsWith('service')
           ? givenName.substring(0, givenName.length - 7)
@@ -33,7 +33,7 @@ void run(HookContext context) {
   context.vars = {
     ...context.vars,
     'parent': (context.vars['parent'] as String).snakeCase,
-    'name': name.pascalCase,
+    'name': name,
     'file_name': name.snakeCase,
     'functions': rearrangedMethods,
     'package_name': packageName,
