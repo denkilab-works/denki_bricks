@@ -4,18 +4,18 @@ import 'package:pine/pine.dart';
 import 'package:{{package_name}}/pages/{{file_name}}_page.dart';
 
 //TODO: uncomment this
-// void main() {
-//   setUp(() {});
+void main() {
+  //   setUp(() {});
 
-//   testWidgets('[{{name}}Page()] some description here', (tester) async {
-//     await tester.pumpWidget(
-//       const DependencyInjectorHelper(
-//         child: MaterialApp(
-//           home: {{name}}Page(),
-//         ),
-//       ),
-//     );
+  //   testWidgets('[{{name}}Page()] some description here', (tester) async {
+  //     await tester.pumpWidget(
+  //       const DependencyInjectorHelper(
+  //         child: MaterialApp(
+  //           home: {{name}}Page(),
+  //         ),
+  //       ),
+  //     );
 
-//     //TODO: Pump your page, write your expectations, and verify invocations.
-//   });
-// }
+  //     //TODO: Pump your page, write your expectations, and verify invocations.
+  //   });
+}
