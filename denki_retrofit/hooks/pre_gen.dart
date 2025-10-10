@@ -13,9 +13,9 @@ void run(HookContext context) {
     exit(0);
   }
 
-  final givenName = (context.vars['name'] as String).toLowerCase();
+  final givenName = (context.vars['name'] as String);
   final name =
-      givenName.endsWith('service')
+      givenName.toLowerCase().endsWith('service')
           ? givenName.substring(0, givenName.length - 7)
           : givenName;
   final packageName = pubspec.name;

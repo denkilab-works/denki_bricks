@@ -13,14 +13,14 @@ void run(HookContext context) {
     exit(0);
   }
 
-  final givenDtoName = (context.vars['dto_name'] as String).toLowerCase();
+  final givenDtoName = (context.vars['dto_name'] as String);
   final dtoName =
-      givenDtoName.endsWith('dto')
+      givenDtoName.toLowerCase().endsWith('dto')
           ? givenDtoName.substring(0, givenDtoName.length - 3)
           : givenDtoName;
-  final givenModelName = (context.vars['model_name'] as String).toLowerCase();
+  final givenModelName = (context.vars['model_name'] as String);
   final modelName =
-      givenModelName.endsWith('dto')
+      givenModelName.toLowerCase().endsWith('dto')
           ? givenModelName.substring(0, givenModelName.length - 3)
           : givenModelName;
   final packageName = pubspec.name;
