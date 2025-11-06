@@ -1,0 +1,20 @@
+name: denki_response
+description: A brick to create your response classes including fixtures for testing.
+repository: https://github.com/denkilab-works/denki_bricks
+
+version: 0.1.0+1
+
+environment:
+  mason: ^0.1.1
+
+vars:
+  parent:
+    type: string
+    description: The parent folder
+    default: feature
+    prompt: What's the name of the parent folder?
+  name:
+    type: string
+    description: The response name
+    default: Dash
+    prompt: What's the name of the response?
