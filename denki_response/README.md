@@ -1,4 +1,4 @@
-# Denki DTO
+# Denki Response
 
 A brick to create your network request class including fixtures for testing.
 
@@ -21,7 +21,7 @@ mason make denki_request --parent "feature" --name "Example"
 | Variable | Description                    | Default | Type     |
 | -------- | ------------------------------ | ------- | -------- |
 | `parent` | The name of the feature folder | feature | `string` |
-| `name`   | The name of the request        | Dash    | `string` |
+| `name`   | The name of the response       | Dash    | `string` |
 
 ## Outputs 📦
 
@@ -29,13 +29,14 @@ mason make denki_request --parent "feature" --name "Example"
 --parent "example_feature" --name "Example"
 ├── lib
 │   └── example_feature
-│       └── request
-│            └── example
-│                 └── example_request.dart
+│       └── services
+│           └── responses
+│               └── example
+│                   └── example_response.dart
 ├── test
 │   └── example_feature
-│     └── fixtures
-│          └── request
-│               └── example_request_fixture_factory.dart
+│       └── fixtures
+│           └── responses
+│               └── example_response_fixture_factory.dart
 └── ...
 ```
