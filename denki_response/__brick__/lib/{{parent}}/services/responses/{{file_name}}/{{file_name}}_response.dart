@@ -1,8 +1,8 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:pine/pine.dart';
 
-part '../../../../../../../denki_request/__brick__/lib/{{parent}}/services/responses/{{file_name}}/{{file_name}}_response.freezed.dart';
-part '../../../../../../../denki_request/__brick__/lib/{{parent}}/services/responses/{{file_name}}/{{file_name}}_response.g.dart';
+part '{{file_name}}_response.freezed.dart';
+part '{{file_name}}_response.g.dart';
 
 @freezed
 abstract class {{name}}Response extends DTO with _${{name}}Response {
